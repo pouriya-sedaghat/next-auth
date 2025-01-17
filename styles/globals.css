@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-fluid {
+    @apply w-screen bg-slate-100 text-gray-700 py-2;
+  }
+}
